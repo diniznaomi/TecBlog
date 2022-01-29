@@ -1,0 +1,224 @@
+
+/* limpando formatações padrões*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background:  #e6e6e6;
+}
+
+/* Layout */
+#areacabeçalho{
+	background: #FFBF00;
+	padding: 15px;
+	text-align: center;
+}
+
+#arealogo, #areamenu {
+	padding: 10px;
+}
+
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: #FFF;
+}
+.conteudo-lateral{
+	background: #FFF;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.postagem-texto-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+}
+
+
+#rodape{
+	background: #CCC;
+	text-align: center;
+	padding: 15px;
+	clear: both;
+}
+
+
+
+/* ***Formatações Menu *** */
+
+#areacabeçalho a:link, #areacabeçalho a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+#areacabeçalho a:hover{
+	background: #FFF;
+	color: #FFBF00;
+	text-decoration: none;
+}
+
+
+/* *** Formatações Gerais *** */
+
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+.branco{
+	color: white;
+}
+h2{
+	color:  #FFBF00;
+}
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid grey;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+h3{
+	background: #BDBDBD;
+	color: #565656;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #FFBF00;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.imagem {
+	width: 620px;
+}
+.clear{
+	clear: both;
+}
+
+
+/* *** Formatações JOGOS *** */
+
+#principal-jogos{
+	width: 920px;
+	background: white;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.conteudo-jogos{
+	width: 250px;
+	float: left;
+	background: white;
+	margin-top: 26px;
+	margin-left: 26px;
+	margin-bottom: 26px;
+	padding: 10px;
+	border: 1px solid #e6e6e6;
+	
+}
+
+#categoria-jogos{
+	width: 230px;
+	position: absolute;
+	top: 165px;
+	left: 45px;
+}
+#categoria-lista{
+	background: #FFF;
+	padding: 10px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+#categoria-pesquisar{
+	background: #FFF;
+	padding: 10px;
+}
+
+/* ** Formatações Gerais Jogos ** */
+
+#principal-jogos p{
+	background: #e6e6e6;
+}
+
+#principal-jogos img{
+	width: 250px;
+	height: 200px;
+}
+#principal-jogos h2{
+	font-size: 2em;
+	color: #FFF;
+	background: #FFBF00;
+	margin: 5px;
+	padding: 3px 5px;
+	display: inline;
+	position: relative;
+	top: -15px;
+	left: 15px;	
+}
+
+.conteudo-jogos a:hover{
+	background: white;
+}
+
+ul{
+	list-style-type: none;
+}
+h4{
+	color: #565656;
+}
+
+/* *** Formatações CELULARES *** */
+
+#area-principal-celulares{
+	margin: 0 auto;
+}
+
+
+#principal-celulares{
+	width: 920px;
+	background: #FFF;
+}
+.logo-celulares img{
+	width: 150px;
+	height: 50px;
+	position: relative;
+	bottom: 50px;
+}
+
+#conteudo-modelos{
+	border: 1px solid red;
+	margin-top: 0;
+}
+
+#conteudo-modelos img{
+	width: 150px;
+	height: 100px;
+}
+
+.modelos-celulares{
+	width: 200px;
+	border: 1px solid green;
+	float: left;
+}
+
+
